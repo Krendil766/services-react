@@ -3,6 +3,7 @@ import Client from './components/client/'
 import './App.css';
 import axios from 'axios';
 import ClientPage from './components/login-page';
+import CheckList from './components/checkList'
 
 
 
@@ -94,10 +95,10 @@ const App2 = () => {
       <button onClick={plus}>+</button>
       <button>{number}</button>
       <button onClick={minus}>-</button>
-
+      <CheckList title = 'Plan of moth'/>  
     </div>
   );
 }
 
 
-export default App;
+export default App2;
